@@ -4,6 +4,7 @@ include_once( 'ezdb1.php');
 
 /* Connection data */
 $globals = array();
+$globals['base_domain'] = '';
 $globals['db_user']				= 'root';
 $globals['db_password']			= '';
 $globals['db_name']				= 'paisos';

@@ -35,7 +35,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 	background: transparent;
 }
-body { line-height: 1; }
+body { line-height: 1; background-color: #e5e3d8 !important;}
 ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
@@ -50,7 +50,6 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 	background: url(background.jpg);
 	margin:0 auto;
-	width:520px;
 }
 a:link {
 	color: #666;
@@ -168,4 +167,32 @@ table tr:hover td{
 	background: #f2f2f2;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
 	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+.container { width: 1025px; margin: 0 auto;}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+    text-align: left;
+}
+
+.ui-widget-header {
+    background: -moz-linear-gradient(center top , #fbfbfb, #fafafa) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #aaaaaa;
+    border-radius: 0 !important;
+    color: #222222;
+    font-weight: bold;
+    margin: 0 auto 10px;
+    width: 400px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: url("images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #e6e6e6;
+    color: #555555;
+    font-weight: normal;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    width: 330px;
 }
